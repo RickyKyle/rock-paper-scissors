@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  font-family: 'Hi Melody', cursive;
+  background-color: #9dccc2;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  margin-top: auto;
+}
+
+.footer {
+  background-color: #e16132;
+  line-height: 50px;
+  min-width: 980px;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  margin-left: -8px;
+  text-transform: uppercase;
+  font-size: 35px;
+  color: white;
+}
+
+#me {
+  text-decoration: none;
+  color: #b1b1b3;
+}
+
+#me:hover{
+  color: white;
+}
+
+#rock, #paper, #scissors {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#rock:hover, #paper:hover, #scissors:hover {
+  transform: scale(1.1);
+}
+
+#result {
+  color: white;
+  font-size: 50px;
+}
